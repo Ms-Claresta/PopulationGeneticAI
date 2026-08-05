@@ -1,0 +1,29 @@
+/* responsive.css - basic responsive tweaks */
+
+/* Make navigation wrap on small screens */
+nav ul {
+  flex-wrap: wrap;
+}
+
+/* Stack header items on narrow viewports */
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .hero {
+    padding: 20px;
+  }
+
+  .progress-bar {
+    width: 95%;
+  }
+
+  .cards {
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+  }
+}

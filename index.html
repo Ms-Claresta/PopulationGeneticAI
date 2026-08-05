@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Population Genetics AI Learning Portal</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/darkmode.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="assets/logo.png" alt="Portal Logo">
+      <h1>Population Genetics AI Learning Portal</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tutorial.html">Tutorial</a></li>
+        <li><a href="essay.html">Essay</a></li>
+        <li><a href="pastyear.html">Past Year</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="search.html">Search</a></li>
+        <li><a href="progress.html">Progress</a></li>
+        <li><a href="settings.html">Settings</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+    <button id="darkModeToggle">🌙</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Chapter 5: Population Genetics</h2>
+      <p>Learn, practice, and test your knowledge with AI-powered marking.</p>
+      <button onclick="window.location.href='quiz.html'">Start Random Quiz</button>
+    </section>
+
+    <section class="stats">
+      <h3>Your Progress</h3>
+      <div class="progress-bar">
+        <div id="progressFill"></div>
+      </div>
+      <p id="progressText">0% Completed</p>
+    </section>
+
+    <section class="quick-links">
+      <h3>Quick Navigation</h3>
+      <div class="cards">
+        <div class="card" onclick="window.location.href='tutorial.html'">Tutorial Questions</div>
+        <div class="card" onclick="window.location.href='essay.html'">Essay Questions</div>
+        <div class="card" onclick="window.location.href='pastyear.html'">Past Year Questions</div>
+      </div>
+    </section>
+
+    <section class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search by keyword or question number...">
+      <button onclick="window.location.href='search.html'">Search</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Population Genetics AI Learning Portal</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
